@@ -1,0 +1,73 @@
+
+
+:root{
+    --main-color: #FFE15D;
+    --secondary-color:#F49D1A;
+    --third-color:#DC3535;
+    --fourth-color: #B01E68;
+}
+
+
+
+.theme-box{
+    border: 2px solid var(--main-color);
+    border-radius: 7px;
+}
+.theme-box-fourth{
+    border: 2px solid var(--fourth-color);
+    border-radius: 7px;
+}
+.theme-box h3{
+    font-weight: bolder;
+}
+.theme-profile-image{
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1/1;
+    max-width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.port-image img {
+    border: 3px solid var(--main-color);
+    border-radius: 7px;
+}
+
+body .container .banner img{
+    border: 3px solid var(--secondary-color);
+}
+
+.theme-menu-item a{
+    color: var(--secondary-color) !important;
+}
+.theme-menu-item a:hover{
+    color: var(--third-color) !important;
+}
+.theme-font-color{
+    color: var(--main-color) !important;
+}
+.theme-bg-primary{
+    background-color: var(--main-color) !important;
+}
+
+.theme-bg-secondary{
+    background-color: var(--secondary-color) !important;
+}
+.theme-bg-third{
+    background-color: var(--third-color) !important;
+}
+.theme-bg-fourth{
+    background-color: var(--fourth-color) !important;
+}
+.theme-text-primary{
+    color: var(--main-color) !important;
+}
+
+.theme-text-secondary{
+    color: var(--secondary-color) !important;
+}

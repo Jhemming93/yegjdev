@@ -1,0 +1,94 @@
+
+
+.brand-logo i{
+    fill: #aed581;
+}
+
+.mission{
+    text-align: center;
+    margin: 0 auto;
+}
+
+i.garbage{
+    color: red;
+    cursor: pointer;
+}
+i.garbage:hover {
+    color: darkred;
+}
+
+.myauther{
+    width: fit-content;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+
+.mt-25{
+    margin-top: 25px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+
+.event-over{
+    background-color: grey;
+}
+
+.container .tx-bold{
+    font-weight: 500;
+}
+
+i.published{
+    color: #aed581;
+    cursor: pointer;
+}
+i.not_published{
+    color: lightgray;
+    cursor: pointer;
+}
+
+ body .container .p-1{
+    padding: 5px;
+}
+body .container .p-2{
+    padding: 10px;
+}
+body .container .p-3{
+    padding: 15px;
+}
+.p-3{
+    padding: 15px;
+}
+body .container .p-4{
+    padding:20px
+}
+
+body .container .m-1{
+    margin: 5px;
+}
+body .container .m-2{
+    margin: 10px;
+}
+body .container .m-3{
+    margin: 15px;
+}
+body .container .m-4{
+    margin:20px
+}
+
+
+.banner img{
+    width: 100%;
+
+}
+body .container .gap{
+    gap: 10px;
+}
+
+.hide{
+    display: none;
+}
