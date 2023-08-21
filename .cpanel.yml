@@ -1,7 +1,7 @@
 ---
 deployment:
       tasks:
-        - export DEPLOYPATH=/home/hmhofmn2/public_html/
+        - export DEPLOYPATH=/home/hmhofmn2/public_html/junior_dev_codignitor/
         - /home/hmhofmn2/repositories/junior_dev_codignitor -R application $DEPLOYPATH
 				- /home/hmhofmn2/repositories/junior_dev_codignitor -R assets $DEPLOYPATH
 				- /home/hmhofmn2/repositories/junior_dev_codignitor -R css $DEPLOYPATH
