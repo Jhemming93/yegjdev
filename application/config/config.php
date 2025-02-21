@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://yegjuniordevs.ca/junior_dev_codignitor/';
+$config['base_url'] = 'https://justcreativedesign.ca/portfolio_pieces/junior_dev_codignitor/';
 
 /*
 |--------------------------------------------------------------------------

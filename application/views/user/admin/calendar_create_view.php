@@ -4,6 +4,8 @@
     if (isset($error)) {
         echo $error;
     }
+
+
     ?>
     <div class="row">
     <?php echo form_open_multipart('calendar/create_event'); ?>

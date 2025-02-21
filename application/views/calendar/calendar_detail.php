@@ -8,15 +8,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         foreach($results as $row):
         $title= $row->title;
         $description = $row->description;
+        $start = $row->start;
+        $end = $row->end;
         
         ?>
-    <div>
+    <div >
         <div class="event-card-header">
-        <h2><?php echo $title ?></h2>
-    </div>
+            <h2><?php echo $title ?></h2>
+        </div>
          <div class="event-card-body">
             <p><?php echo $description ?></p>
-         </div>   
+            <p><?php echo $start ?> - <?php echo $end ?> </p>
+         </div>
+
     </div>
 
 <?php endforeach; ?>
